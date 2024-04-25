@@ -1,0 +1,20 @@
+name: test-project
+
+channels:
+  - nvidia
+  - conda-forge
+
+dependencies:
+  - python=3.10
+  - pip
+  - ipython
+  - numpy
+  - scipy
+  - matplotlib
+  - uhd=4.2.0.0
+  - soapysdr-module-uhd
+  - spyder
+  - pytorch
+  - pip:
+        # list any installs that do not exist as conda packages here
+        methodtools
