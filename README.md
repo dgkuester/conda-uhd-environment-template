@@ -9,13 +9,13 @@ For this, edit environment.yaml
 
 ### 2. Create an environment
 ```bash
-conda env create -p .venv -f environment.yaml
+conda env create -f environment.yaml
 ```
 
 ### 3. Activate the created environment.
 
 ```bash
-conda activate ./.venv
+conda activate test-project
 ```
 
 ### 4. Making changes to the environment
@@ -26,5 +26,5 @@ works better than resolving the dependency versions separately.
 After making the changes to your environment.yaml, run this:
 
 ```bash
-conda env update -p .venv -f environment.yaml
+conda env update -f environment.yaml
 ```
